@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3679A5461BD1DEE000C3FE18 /* customButtonWithAspectFit.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3679A5451BD1DEE000C3FE18 /* customButtonWithAspectFit.gif */; settings = {ASSET_TAGS = (); }; };
 		367C0E661BD1CC3600B62C8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367C0E651BD1CC3600B62C8F /* AppDelegate.swift */; };
 		367C0E681BD1CC3600B62C8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367C0E671BD1CC3600B62C8F /* ViewController.swift */; };
 		367C0E6B1BD1CC3600B62C8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 367C0E691BD1CC3600B62C8F /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		367C0E701BD1CC3600B62C8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 367C0E6E1BD1CC3600B62C8F /* LaunchScreen.storyboard */; };
 		367C0E7B1BD1CC3600B62C8F /* customButtonWithAspectFitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367C0E7A1BD1CC3600B62C8F /* customButtonWithAspectFitTests.swift */; };
 		367C0E861BD1CC3600B62C8F /* customButtonWithAspectFitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367C0E851BD1CC3600B62C8F /* customButtonWithAspectFitUITests.swift */; };
+		367C0E951BD1D12E00B62C8F /* buttonDefault.png in Resources */ = {isa = PBXBuildFile; fileRef = 367C0E931BD1D12E00B62C8F /* buttonDefault.png */; settings = {ASSET_TAGS = (); }; };
+		367C0E961BD1D12E00B62C8F /* buttonSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 367C0E941BD1D12E00B62C8F /* buttonSelected.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3679A5451BD1DEE000C3FE18 /* customButtonWithAspectFit.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = customButtonWithAspectFit.gif; sourceTree = "<group>"; };
 		367C0E621BD1CC3600B62C8F /* customButtonWithAspectFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = customButtonWithAspectFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		367C0E651BD1CC3600B62C8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		367C0E671BD1CC3600B62C8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		367C0E811BD1CC3600B62C8F /* customButtonWithAspectFitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = customButtonWithAspectFitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		367C0E851BD1CC3600B62C8F /* customButtonWithAspectFitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customButtonWithAspectFitUITests.swift; sourceTree = "<group>"; };
 		367C0E871BD1CC3600B62C8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		367C0E931BD1D12E00B62C8F /* buttonDefault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonDefault.png; sourceTree = "<group>"; };
+		367C0E941BD1D12E00B62C8F /* buttonSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonSelected.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,7 @@
 				367C0E6C1BD1CC3600B62C8F /* Assets.xcassets */,
 				367C0E6E1BD1CC3600B62C8F /* LaunchScreen.storyboard */,
 				367C0E711BD1CC3600B62C8F /* Info.plist */,
+				367C0E971BD1D13300B62C8F /* image */,
 			);
 			path = customButtonWithAspectFit;
 			sourceTree = "<group>";
@@ -123,6 +130,16 @@
 				367C0E871BD1CC3600B62C8F /* Info.plist */,
 			);
 			path = customButtonWithAspectFitUITests;
+			sourceTree = "<group>";
+		};
+		367C0E971BD1D13300B62C8F /* image */ = {
+			isa = PBXGroup;
+			children = (
+				367C0E931BD1D12E00B62C8F /* buttonDefault.png */,
+				367C0E941BD1D12E00B62C8F /* buttonSelected.png */,
+				3679A5451BD1DEE000C3FE18 /* customButtonWithAspectFit.gif */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +246,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				367C0E701BD1CC3600B62C8F /* LaunchScreen.storyboard in Resources */,
+				367C0E961BD1D12E00B62C8F /* buttonSelected.png in Resources */,
+				367C0E951BD1D12E00B62C8F /* buttonDefault.png in Resources */,
 				367C0E6D1BD1CC3600B62C8F /* Assets.xcassets in Resources */,
 				367C0E6B1BD1CC3600B62C8F /* Main.storyboard in Resources */,
+				3679A5461BD1DEE000C3FE18 /* customButtonWithAspectFit.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +501,7 @@
 				367C0E8C1BD1CC3600B62C8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		367C0E8D1BD1CC3600B62C8F /* Build configuration list for PBXNativeTarget "customButtonWithAspectFitTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +510,7 @@
 				367C0E8F1BD1CC3600B62C8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		367C0E901BD1CC3600B62C8F /* Build configuration list for PBXNativeTarget "customButtonWithAspectFitUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +519,7 @@
 				367C0E921BD1CC3600B62C8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
