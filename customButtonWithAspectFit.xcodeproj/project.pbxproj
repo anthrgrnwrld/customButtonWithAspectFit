@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3679A54C1BD1E7D800C3FE18 /* customButtonWithAspectFit1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3679A54B1BD1E7D800C3FE18 /* customButtonWithAspectFit1.gif */; settings = {ASSET_TAGS = (); }; };
 		367C0E661BD1CC3600B62C8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367C0E651BD1CC3600B62C8F /* AppDelegate.swift */; };
 		367C0E681BD1CC3600B62C8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367C0E671BD1CC3600B62C8F /* ViewController.swift */; };
 		367C0E6B1BD1CC3600B62C8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 367C0E691BD1CC3600B62C8F /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3679A54B1BD1E7D800C3FE18 /* customButtonWithAspectFit1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = customButtonWithAspectFit1.gif; sourceTree = "<group>"; };
 		367C0E621BD1CC3600B62C8F /* customButtonWithAspectFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = customButtonWithAspectFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		367C0E651BD1CC3600B62C8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		367C0E671BD1CC3600B62C8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 			children = (
 				367C0E931BD1D12E00B62C8F /* buttonDefault.png */,
 				367C0E941BD1D12E00B62C8F /* buttonSelected.png */,
+				3679A54B1BD1E7D800C3FE18 /* customButtonWithAspectFit1.gif */,
 			);
 			name = image;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				367C0E701BD1CC3600B62C8F /* LaunchScreen.storyboard in Resources */,
+				3679A54C1BD1E7D800C3FE18 /* customButtonWithAspectFit1.gif in Resources */,
 				367C0E961BD1D12E00B62C8F /* buttonSelected.png in Resources */,
 				367C0E951BD1D12E00B62C8F /* buttonDefault.png in Resources */,
 				367C0E6D1BD1CC3600B62C8F /* Assets.xcassets in Resources */,
